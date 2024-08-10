@@ -15,7 +15,15 @@
     "url": "git+https://github.com/besaoct/genfunc"
   },
   "keywords": [
-    "genfunc npm-package"
+  "functions",
+  "genfunc",
+  "dynamic functions",
+  "function wrappers",
+  "result caching",
+  "execution delay",
+  "fixed value functions",
+  "JavaScript helpers",
+  "TypeScript utilities"
   ],
   "homepage": "https://github.com/besaoct/genfunc#readme",
   "author": "Shafin",
@@ -23,7 +31,7 @@
   "bugs": {
     "url": "https://github.com/besaoct/genfunc/issues"
   },
-  "description": " ",
+  "description": "A library for creating, caching, delaying, and wrapping functions with ease in JavaScript and TypeScript.",
   "files": [
     "dist",
     "README.md",
