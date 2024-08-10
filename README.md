@@ -13,6 +13,8 @@ This library provides a collection of high-performance, framework-agnostic funct
   - [`constantFn`](#constantfn)
   - [Usage Examples](#usage-examples)
   - [Summary Table](#summary-table)
+  - [Contribution](#contribution)
+  - [License](#license)
 
 ## `genFn`
 
@@ -230,3 +232,18 @@ console.log(getNumber()); // Output: 42
 | `cacheFn`     | Caches results of a function based on arguments.   | `func: Function`                                                            | `Function`      | `cacheFn(fn)`                        |
 | `delayFn`     | Delays the execution of a function.                | `func: Function`, `delay: number`                                           | `Function`      | `delayFn(fn, 1000)`                  |
 | `constantFn`  | Creates a function that returns a fixed value.     | `value: T`                                                                   | `Function`      | `constantFn(42)`                     |
+
+## Contribution
+
+Contributions are welcome! If you have suggestions or improvements, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Write tests to cover your changes.
+4. Submit a pull request with a description of your changes.
+
+Please ensure that your code follows the existing coding style and that all tests pass before submitting a pull request. We appreciate your contributions!
+
+## License
+
+This is licensed under the [MIT License](https://raw.githubusercontent.com/besaoct/genfunc/main/LICENSE)  © Shafin (@besaoct).
